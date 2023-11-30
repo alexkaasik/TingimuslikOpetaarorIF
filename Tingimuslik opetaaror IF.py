@@ -124,12 +124,17 @@ if (QSP0 == x.day) and (QSP1 == x.month):
 else:
     print("good day")
 
-
-
-
-
 print("\n-----12------\n")
 
 print("\n-----13------\n")
+
+Qgenger = str(input("m-1/n-0: "))
+if Qgenger == "n" or Qgenger == '0':
+    Qage = int(input("vanus: "))
+
+if ((Qgenger == "m" or Qgenger == "1") and ( 16 => Qage =< 18 ) ) or ( Qgenger == "n" or Qgenger == "0" ):
+    print("allowed")
+else:
+    print("no")
 
 print("\n-----14------\n")
